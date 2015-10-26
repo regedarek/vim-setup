@@ -6,9 +6,11 @@ var player =
   document.getElementById('player1');
 var className1 = 'yt-uix-button-icon-playlist-bar-next';
 var className2 = 'yt-uix-button-icon-watch-appbar-play-next';
+var className3 = 'ytp-next-button';
 var next =
   document.getElementsByClassName(className1)[0] ||
-  document.getElementsByClassName(className2)[0];
+  document.getElementsByClassName(className2)[0] ||
+  document.getElementsByClassName(className3)[0];
 if (player) {
   if (next) {
     next.click();
