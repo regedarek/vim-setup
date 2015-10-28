@@ -18,7 +18,7 @@ let g:ag_working_path_mode="r"
 " neomru
 nmap <silent> <Leader>m :call fzf#run({
 \   'source': 'sed "1d" $HOME/.cache/neomru/file',
-\   'sink': 'e '
+\   'sink': 'tabe '
 \ })<CR>
 
 " disable tags completion
